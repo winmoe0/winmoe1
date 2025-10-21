@@ -1,0 +1,278 @@
+---
+layout: none
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Win Moe - Advanced CV Profile</title>
+
+  <!-- Google Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    body {
+      font-family: 'Open Sans', sans-serif;
+      line-height: 1.5;
+      margin: 0;
+      padding: 40px;
+      background-color: #f0f2f5;
+    }
+
+    .cv-container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: #ffffff;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      padding: 30px 40px 20px;
+      background-color: #f8f8f8;
+      border-bottom: 2px solid #0077b6;
+      text-align: center;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2.6em;
+      color: #1a1a1a;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 700;
+    }
+
+    .header h2 {
+      margin: 5px 0 0;
+      font-size: 1.3em;
+      font-weight: 400;
+      color: #0077b6;
+    }
+
+    .main-body {
+      display: flex;
+      flex-grow: 1;
+    }
+
+    .sidebar {
+      flex: 1;
+      background-color: #0077b6;
+      color: #ffffff;
+      padding: 20px;
+    }
+
+    .sidebar h3 {
+      font-size: 1.1em;
+      text-transform: uppercase;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      padding-bottom: 5px;
+      margin-top: 25px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+
+    .sidebar p, .sidebar li {
+      font-size: 0.9em;
+      margin: 5px 0;
+      font-weight: 300;
+    }
+
+    .sidebar i {
+      margin-right: 8px;
+      width: 15px;
+      text-align: center;
+    }
+
+    .sidebar a {
+      color: #e0f7fa;
+      text-decoration: none;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .content {
+      flex: 2;
+      padding: 20px 40px;
+    }
+
+    .content h3 {
+      font-size: 1.4em;
+      color: #0077b6;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      position: relative;
+    }
+
+    .content h3::after {
+      content: '';
+      display: block;
+      width: 50px;
+      height: 3px;
+      background-color: #333;
+      margin-top: 5px;
+    }
+
+    .entry {
+      margin-bottom: 25px;
+    }
+
+    .entry h4 {
+      font-size: 1.1em;
+      color: #333;
+      margin: 0 0 5px;
+      font-weight: 600;
+    }
+
+    .entry .meta {
+      font-size: 0.9em;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .entry ul {
+      list-style: disc;
+      padding-left: 20px;
+      margin: 5px 0 0;
+      font-size: 0.95em;
+    }
+
+    .entry li {
+      margin-bottom: 5px;
+    }
+
+    @media print {
+      body { padding: 0; background: #fff; }
+      .cv-container { box-shadow: none; width: 100%; }
+      .sidebar {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        background-color: #0077b6 !important;
+        color: #ffffff !important;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .cv-container { flex-direction: column; }
+      .main-body { flex-direction: column; }
+      .sidebar, .content { padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="header">
+      <h1>Win Moe</h1>
+      <h2>English Teacher</h2>
+    </div>
+
+    <div class="main-body">
+      <aside class="sidebar">
+        <section>
+          <h3><i class="fas fa-address-card"></i> Contact</h3>
+          <p><i class="fas fa-phone-alt"></i> 0924854332, 09772518980</p>
+          <p><i class="fas fa-envelope"></i> <a href="mailto:minwinmoe123@gmail.com">minwinmoe123@gmail.com</a></p>
+          <p><i class="fas fa-map-marker-alt"></i> Chiang Mai, Thailand</p>
+        </section>
+
+        <section>
+          <h3><i class="fas fa-user"></i> Personal Details</h3>
+          <p><strong>Gender:</strong> Male</p>
+          <p><strong>DOB:</strong> 15 Oct 1998</p>
+          <p><strong>Nationality:</strong> Myanmar</p>
+          <p><strong>Marital Status:</strong> Single</p>
+          <p><strong>Passport No:</strong> MJ072280</p>
+          <p><strong>Height/Weight:</strong> 172 cm / 57 kg</p>
+        </section>
+
+        <section>
+          <h3><i class="fas fa-globe"></i> Languages</h3>
+          <ul>
+            <li>Mon (Native)</li>
+            <li>Burmese (Fluent)</li>
+            <li>English (Advanced)</li>
+            <li>Thai (Conversational)</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3><i class="fas fa-star"></i> Skills</h3>
+          <ul>
+            <li>Good Communication</li>
+            <li>Self-Management</li>
+            <li>Excellent Presentation</li>
+            <li>Effective Social Skills</li>
+            <li>Friendly and Adaptable</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3><i class="fas fa-certificate"></i> Certificates</h3>
+          <ul>
+            <li>Information Technology</li>
+            <li>Pre-intermediate English</li>
+            <li>Financial Literacy</li>
+          </ul>
+        </section>
+      </aside>
+
+      <div class="content">
+        <section>
+          <h3>Career Objective</h3>
+          <p>Aspiring educator with a strong commitment to fostering an inclusive and dynamic learning environment. Eager to pursue a teaching career that supports student growth, engagement, and well-being through innovative methods and positive relationships.</p>
+        </section>
+
+        <section>
+          <h3>Work Experiences</h3>
+
+          <div class="entry">
+            <h4>Teaching</h4>
+            <p class="meta">Mon National Primary School, Bnan Bane Village, Ye | 2023–2024</p>
+            <ul>
+              <li>Enhanced student proficiency in English language skills: writing, reading, listening, speaking, and grammar.</li>
+              <li>Integrated modern techniques to promote analysis, creativity, and collaboration.</li>
+            </ul>
+          </div>
+
+          <div class="entry">
+            <h4>Content Creator</h4>
+            <p class="meta">Online Platforms | 2019–2025</p>
+            <ul>
+              <li>Produced engaging videos on English lessons and life topics for broad online audiences.</li>
+              <li>Built supportive learning communities through interactive content and feedback.</li>
+            </ul>
+          </div>
+
+          <div class="entry">
+            <h4>Online Teaching</h4>
+            <p class="meta">Via Zoom (Poy English for All Learners Page) | 2019–2025</p>
+            <ul>
+              <li>Taught core English skills including pronunciation, writing, and speaking.</li>
+              <li>Designed interactive lessons to build confidence and critical thinking.</li>
+            </ul>
+          </div>
+        </section>
+
+        <section>
+          <h3>Education</h3>
+          <div class="entry"><h4>Mon National College</h4><p class="meta">2022–2024</p></div>
+          <div class="entry"><h4>Hpa-An University (Mathematics)</h4><p class="meta">2nd Year, 2019–2020</p></div>
+          <div class="entry"><h4>Mon Intensive English Program</h4><p class="meta">2018</p></div>
+          <div class="entry"><h4>High School / Matriculation Exam</h4><p class="meta">2007–2018</p></div>
+        </section>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
